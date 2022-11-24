@@ -8,8 +8,8 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#27354a] text-gray-200">
-        Navbar
+      <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#62738c] text-gray-200">
+        E J C
         <ul className="hidden md:flex">
           <li>Home</li>
           <li>About</li>

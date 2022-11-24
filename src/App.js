@@ -1,10 +1,13 @@
+import About from "./Components/About";
+import Home from "./Components/Home";
 import { Navbar } from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-     <h1 className="text-3xl font-bold underline">portoflio</h1>
+      <Home />
+      <About/>
     </div>
   );
 }
