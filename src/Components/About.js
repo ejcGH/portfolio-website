@@ -10,10 +10,22 @@ const About = () => {
               About
             </p>
           </div>
-                  <div></div>
-                  <div className="">
-                  </div> 
-
+          <div></div>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-5">
+          <div className="text-4xl sm:text-right text-[#ccd6f6] font-semibold">
+            <p>
+              Hey there! I'm Elouisa, follow me along my continuous journey as a
+              fullstack developer.
+            </p>
+          </div>
+          <div>
+            When I'm not busy designing, creating and developing, I love to
+            hike, read and try all different kinds of cuisine while always
+            craving for knowledge and constant growth. I specialize in creating
+            tools and websites for clients ranging from individuals to small
+            businesses. 
+          </div>
         </div>
       </div>
     </div>
