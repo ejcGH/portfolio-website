@@ -12,7 +12,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-[#ccd6f6] py-4">
-            Fill out the form to get in touch or personally send me an email - email
+            Fill out the form to get in touch or personally send me an email here: elouisa.dev@gmail.com
           </p>
               </div>
               <input name='name' type='text' placeholder="Name" className="p-2" />

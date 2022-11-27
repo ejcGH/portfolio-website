@@ -3,7 +3,7 @@ import PBImg from "../Assets/PBImg.png";
 import PortfolioImg from "../Assets/Portfolio.png"
 const Work = () => {
   return (
-    <div className="bg-[#62738c] w-full md:h-screen text-[#ccd6f6]">
+    <div name='projects' className="bg-[#62738c] w-full md:h-screen text-[#ccd6f6]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-semibold inline border-b-4 border-[#ccd6f6] text-[#2b3242]">
