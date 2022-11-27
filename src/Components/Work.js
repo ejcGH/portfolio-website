@@ -30,7 +30,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ejcGH/PomodoroBuddy" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-semibold text-lg">
                     Code
                   </button>
@@ -53,7 +53,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ejcGH/portfolio-website" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-semibold text-lg">
                     Code
                   </button>
