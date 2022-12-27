@@ -1,4 +1,5 @@
 import React from "react";
+import elouisa from "../Assets/elouisa.png";
 
 const About = () => {
   return (
@@ -12,19 +13,23 @@ const About = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-5">
-          <div className="text-4xl sm:text-right text-[#ccd6f6] font-semibold">
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4">
+        <div className="w-full  grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
+            <img src={elouisa} className=""/>
+          </div>
+          <div className="text-5xl sm:text-right text-[#ccd6f6] font-semibold">
             <p>
               Hey there! I'm Elouisa, follow me along my continuous journey as a
               fullstack developer.
             </p>
           </div>
-          <div>
+
+          <div className="text-xl">
             When I'm not busy designing, creating and developing, I love to
             hike, read and try all different kinds of cuisine while always
             craving for knowledge and constant growth. I specialize in creating
             tools and websites for clients ranging from individuals to small
-            businesses. 
+            businesses.
           </div>
         </div>
       </div>
