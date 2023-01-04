@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import PBImg from "../Assets/PBImg.png";
 import PortfolioImg from "../Assets/Portfolio.png";
 import WorkoutPlannerImg from "../Assets/WorkoutPlanner.png";
@@ -6,10 +6,10 @@ import LocalEyes from "../Assets/LocalEyes.png";
 
 const Work = () => {
   return (
-    <>
+   
       <div
         name="projects"
-        className="bg-[#62738c] w-full md:h-screen text-[#ccd6f6]"
+        className="bg-[#62738c] w-full h-screen text-[#ccd6f6]"
       >
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div className="pb-8">
@@ -164,7 +164,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-    </>
+
   );
 };
 
