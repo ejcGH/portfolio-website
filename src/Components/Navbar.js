@@ -114,7 +114,9 @@ export const Navbar = () => {
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-blue-400">
               <a
                 className="flex justify-between items-center w-full text-gray-100"
-                href="https://www.linkedin.com/in/elouisa-cardano-a8868925b/" target="_blank"
+                href="https://linkedin.com/in/elouisa-c-dev
+                "
+                target="_blank"
               >
                 LinkedIn <FaLinkedin size={45} />{" "}
               </a>
@@ -122,7 +124,8 @@ export const Navbar = () => {
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-gray-400">
               <a
                 className="flex justify-between items-center w-full text-gray-100"
-                href="https://github.com/ejcGH" target="_blank"
+                href="https://github.com/ejcGH"
+                target="_blank"
               >
                 Github <FaGithub size={45} />{" "}
               </a>
@@ -141,7 +144,8 @@ export const Navbar = () => {
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-gray-400">
               <a
                 className="flex justify-between items-center w-full text-gray-100"
-                href={ecresume}target="_blank"
+                href={ecresume}
+                target="_blank"
               >
                 Resume <BsFillPersonLinesFill size={45} />{" "}
               </a>
